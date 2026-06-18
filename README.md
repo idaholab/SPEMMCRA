@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This repository has been archived and is no longer maintained.**
+> The code is provided for historical reference and may contain unpatched
+> or unknown vulnerabilities. It should not be used in production systems.
+
+---
+
 Introduction
 This code provides an implementation of the swing equation to simulate the frequency and voltage of a microgrid. The current implementation supports a battery model which should be run on a raspberry pi or virtual machine. The raspberry pi provides a control and frequency sensor output for a PLC.  A PLC is required evaluate the output form the raspberry pi and apply an actuator. This provides a frequency control loop. This system is useful for providing analog inputs and accepting analog reads from a PLC. The microgrid additionally supports DNP3 and MODBUS communication with a PLC.
 
